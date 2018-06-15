@@ -334,6 +334,18 @@ const CONFIG = [
                 url: '/pages/login'
             },
             {
+                title: 'Login',
+                url: '/fpages/login'
+            },
+            {
+                title: 'Register',
+                url: '/fpages/register'
+            },
+            {
+                title: 'Find Password',
+                url: '/fpages/find-password'
+            },
+            {
                 title: 'Forgot Password',
                 url: '/pages/forgot-password'
             },

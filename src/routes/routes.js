@@ -298,6 +298,18 @@ export default [
         component: require('./Pages/Login').default
     },
     {
+        path: '/fpages/login',
+        component: require('./FPages/FLogin').default
+    },
+    {
+        path: '/fpages/register',
+        component: require('./FPages/FRegister').default
+    },
+    {
+        path: '/fpages/find-password',
+        component: require('./FPages/FFindPassword').default
+    },
+    {
         path: '/pages/forgot-password',
         component: require('./Pages/ForgotPassword').default
     },
